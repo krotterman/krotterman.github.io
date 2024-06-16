@@ -1,10 +1,84 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>People I know</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>HTML Table Reference</h1>
+    </header>
 
-<body>
-  <h1>KRISTOPHER ROTTERMAN</h1>
-  <p>Welcome to my website!</p>
-  <P>I'm learning to code. Here is my first Git submit.</P>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+    <div class="container">
+      <h2 class="table-name">Table Tags</h2>
 
+      <table class="first" border="1">
+        <tbody>
+          <tr>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td>&lt;table&gt;</td>
+            <td>Table</td>
+            <td>The wrapper element for all HTML tables</td>
+          </tr>
+          <tr>
+            <td>&lt;thead&gt;</td>
+            <td>Table Head</td>
+            <td>The set of rows defining the column headers in a table</td>
+          </tr>
+
+          <tr>
+            <td>&lt;tbody&gt;</td>
+            <td>Table Body</td>
+            <td>The set of rows containing actual table data</td>
+          </tr>
+
+          <tr>
+            <td>&lt;tr&gt;</td>
+            <td>Table Row</td>
+            <td>The table row container</td>
+          </tr>
+
+          <tr>
+            <td>&lt;td&gt;</td>
+            <td>Table Data</td>
+            <td>The table row container</td>
+          </tr>
+
+          <tr>
+            <td>&lt;tfoot&gt;</td>
+            <td>Table Foot</td>
+            <td>The set of rows defining the footer in a table.</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2 class="table-name">Table Attributes</h2>
+
+      <table class="second" border="1">
+        <tbody>
+          <tr>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td>colspan</td>
+            <td>Column Span</td>
+            <td>Defines how many columns a td element should span</td>
+          </tr>
+          <tr>
+            <td>rowspan</td>
+            <td>Row Span</td>
+            <td>Defines how many rows a td element should span</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
 </html>
